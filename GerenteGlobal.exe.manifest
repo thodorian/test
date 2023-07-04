@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GerenteGlobal.exe" version="1.1.13.15404" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GerenteGlobal" version="1.1.13.15404" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GerenteGlobal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Facilities.dll" size="140288">
+      <assemblyIdentity name="Facilities" version="1.1.13.15404" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GerenteGlobal.exe" size="148992">
+      <assemblyIdentity name="GerenteGlobal" version="1.1.13.15404" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+    <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GR.Presentation.Infra.dll" size="53760">
+      <assemblyIdentity name="GR.Presentation.Infra" version="1.1.13.15404" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GRBase.dll" size="1378816">
+      <assemblyIdentity name="GRBase" version="1.1.13.15404" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>  
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GRPrincipal.dll" size="152064">
+      <assemblyIdentity name="GRPrincipal" version="1.1.13.15404" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+<Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ECwjh1wW4PPLouZRN9V+ukmBF+hohH0HbEIied3YfQc=</DigestValue></Reference></SignedInfo><SignatureValue>JF+eyq9FXbs6XRmVRmpJfY8lYiZ5VUmeiku7u0mJTsfbRFdeKQOd6aUCxjZwXsu5oLQVyF2VkyBk41vYAcFPMaTDKkcm2SysidS4/W2F89sz6KCaZg+pSmMui6UFHEvoqwvUKdEimmJEH3c3WOabYV0YDY2xQ5TTgti9JQIFCsT8y1OPYswQ8dl8O3/X4ht1xB/Kmjb4VcclAvrZ2B1Y+hjeZ5O+mCDdi84mqrYBuIF7rdkOmpZMmulGKzSyuWFni681y/VRPAVjdo0KMzxb4ZjcWtw2v50AzTubWFqrMQetZIVQZ3OAd/rPiAje3aAZv0TpRLqsPEL70iZyx6JdSGtkw0VtlfzqsXa0NwtuW1e7GJEjRZocLPdyCz5yprAAjiBre+aA8Os02wa9kYamdXwYaioMDkP+/km6VoBCUSDQjKOtBPC7ACKmrPl8rSQSn9qovLTvJ8a4ZzKPGaZX8sh5DL9MW7n3jS75ao5/wh9/scNtwQ8Q/qTCU2t/ecHM5MZ4IifTjynDS8I2LoI+qiSzjVIcNbAUW44+sgIGeMuDdhWbS1l4o3kzhZuK/yFMPwmu8NIQlmz13YwdhBgl8CRsVZrXZcZdKCOzNM8D8sHUtvFpPTj9Iubd36PNyCFqhWvebOtW9Vg4eofvO9R5ejOGDoRTc1nS1NsY80r3VVw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wDrMmGiSYntT+gAT2VZRFzRLRXFp3BP7tJcCiHhAaNqqqCNrz6GxtCra8cTo3T+wPZcaw7bmSMr/8hwDAuv9gbdL0GGqXovIu7K8du+6JDynaz6xM3VfzBEO0NvOmr2tesjUw69pxgm4Eqnup7LXABnlgNEY5YJEGq5n1+allRVu9vpBzeQ+vlNdurOUR3LCLCf7krKPPe2WsVkmxLUAiQngGMp3FBHGYx9vLlHoOXZkOpGsXuDl321OahCVulps/MFn8BL1lZ/sTPgGd3sfyfIMBlPrQi856wfxR4zetdq0Di8XRycxWK7n2w9sNIhNMTsCrdXkmupqBblZJ5Il+vcTET8/jiFM+LI8BJ/SuUnlvQbJ0kFLiCEmuSg/4nMbt21mvbVOFzh6sEXrJZ2iBpl1cS3IQlTI2HH4PGbH5O4cUq35pHyI/d44tzWsVUSZpS9G5byEqQW/+5T9Ess/SnqYXxiShfWvDTHhSPboNMTN+uL8sIaXTB7HODK9hbM074sqVBhKR8wPOKeZFaSPrTIZejzikvRjj46DFLT1au3yVLA8tWZxVZisqKudTtV30QWiLFOCHSn7/T44VE/tjRX0wIS3tmKLMPJwaxQg6GaSMwuM3ACy5QIk0Jt/DHpKlqlaZlIpBxkCR65ct4CptzGsF2IifIXUGiI+4q3MhrU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="077dd8dd7922426c077d8468e8178149ba7ed53751e6a2cbf3e0165c87232c10" Description="" Url=""><as:assemblyIdentity name="GerenteGlobal.exe" version="1.1.13.15404" publicKeyToken="68df8847edd09376" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BACK CONSULTORIA E SERVICOS LTDA., O=BACK CONSULTORIA E SERVICOS LTDA., L=Curitiba, S=Paraná, C=BR</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>T0R9OEwp4qbm0gwHoWoaci3D3VHx/cdVBMrhGF01XPQ=</DigestValue></Reference></SignedInfo><SignatureValue>gB0OL0MOrJVeaabOW1z5y6+EBiDZ9bT/kbPshEAgM1/G9rslxGuVveRjrHAXLjj/wyVtFKDJgQCVolaMT/DcXaJCvY1okkOWIydCCrBiHoe5AQFDe6e2slkBUx5R0T40pVaoggP/XHMJsjLCmiqnh9Pj/SPBRgoWvLSDYClynehTTQy67QX3uuno1Sio4Na6xbDhuCfkkJPESUi106Sz0uac1+4ycgfeNWuST+3z+U2KcrBm+PN9u+/ZQW06I65MVO64BmXjbta6MhcfhW8XzMiweedkzUsTcploI1gK4ix8QMICwvNnyqXcova0WFiZg3JwxIgkieSb2roIIYVbuu8BJTCGQke6Ger9CcH6/sKZcfmMnAxCsjjRhDecJwIBS0CeDUebfuieaIHkNOGZRqHM0uYhTLH8jBGCgJaKHTnL8xJh2DA1zQUbRjBuh93Tye6uvTyrG8eOoSeNhoJjsNS7VNXqdsgyclLWTetouFnGOvrxrBLVA8XIJ2d97nNLv4bvAHig/PrwbjOVyFR7Tw9FEB6sKzSYofC1laIToNqSkuJTI8kCT3T06NdUY4kreGlEiMpfg9JVIrjVmnrZBBdIoqZ6Y1vwBXJc42z4ms6Sp0I4edDkW1iIelKzKXrWwn+CES0T4XhuyeJzVrx38ooDu2pxSHOmt+FMgRaAn1c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wDrMmGiSYntT+gAT2VZRFzRLRXFp3BP7tJcCiHhAaNqqqCNrz6GxtCra8cTo3T+wPZcaw7bmSMr/8hwDAuv9gbdL0GGqXovIu7K8du+6JDynaz6xM3VfzBEO0NvOmr2tesjUw69pxgm4Eqnup7LXABnlgNEY5YJEGq5n1+allRVu9vpBzeQ+vlNdurOUR3LCLCf7krKPPe2WsVkmxLUAiQngGMp3FBHGYx9vLlHoOXZkOpGsXuDl321OahCVulps/MFn8BL1lZ/sTPgGd3sfyfIMBlPrQi856wfxR4zetdq0Di8XRycxWK7n2w9sNIhNMTsCrdXkmupqBblZJ5Il+vcTET8/jiFM+LI8BJ/SuUnlvQbJ0kFLiCEmuSg/4nMbt21mvbVOFzh6sEXrJZ2iBpl1cS3IQlTI2HH4PGbH5O4cUq35pHyI/d44tzWsVUSZpS9G5byEqQW/+5T9Ess/SnqYXxiShfWvDTHhSPboNMTN+uL8sIaXTB7HODK9hbM074sqVBhKR8wPOKeZFaSPrTIZejzikvRjj46DFLT1au3yVLA8tWZxVZisqKudTtV30QWiLFOCHSn7/T44VE/tjRX0wIS3tmKLMPJwaxQg6GaSMwuM3ACy5QIk0Jt/DHpKlqlaZlIpBxkCR65ct4CptzGsF2IifIXUGiI+4q3MhrU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>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</X509Certificate><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
