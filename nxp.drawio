@@ -429,6 +429,9 @@
             <mxPoint x="-913.51" y="8877.14" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;dashed=1;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-212" target="uX-lzGmGO70ofNnJfn6G-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-212" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;HTTPS to Socks Proxy Backdoor&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;strokeWidth=3;perimeterSpacing=0;fontFamily=Courier New;fontSize=10;fontStyle=1;fillColor=#B50000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-518.37" y="8528.95" width="128.57" height="52.86" as="geometry" />
         </mxCell>
@@ -444,7 +447,7 @@
         <mxCell id="uX-lzGmGO70ofNnJfn6G-223" value="Unit42 C2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1463.21" y="9175" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uX-lzGmGO70ofNnJfn6G-232" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-220" target="uX-lzGmGO70ofNnJfn6G-212">
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-232" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#FF0000;dashed=1;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-220" target="uX-lzGmGO70ofNnJfn6G-212">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-890" y="8820" as="sourcePoint" />
             <mxPoint x="-790" y="8820" as="targetPoint" />
@@ -454,10 +457,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-234" value="&lt;b&gt;Unit42 Connect through the Socks backdoor Externally&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontFamily=Courier New;fontSize=10;rotation=0;fontStyle=2;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-952" y="9000" width="101.57" height="36.37" as="geometry" />
+          <mxGeometry x="-1030" y="9100" width="101.57" height="36.37" as="geometry" />
+        </mxCell>
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-237" target="uX-lzGmGO70ofNnJfn6G-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-237" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;nfx52801&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;strokeWidth=3;perimeterSpacing=0;fontFamily=Courier New;fontSize=10;fontStyle=1;fillColor=#B50000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-496.0499999999999" y="8641.51" width="92.11" height="32.3" as="geometry" />
+          <mxGeometry x="-501.32999999999987" y="8641.51" width="92.11" height="32.3" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
