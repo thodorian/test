@@ -119,25 +119,22 @@
           <mxGeometry x="-1123.25" y="8381.01" width="37.51" height="830" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-56" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1310" y="8810" width="164.02" height="140" as="geometry" />
+          <mxGeometry x="-1310" y="8810" width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-57" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;shadow=1;dashed=1;strokeWidth=2;fontSize=11;align=left;labelBackgroundColor=#ffffff;fillStyle=auto;fillColor=#E6E6E6;strokeColor=#9673a6;" vertex="1" parent="uX-lzGmGO70ofNnJfn6G-56">
-          <mxGeometry x="0.94" y="0.01" width="163.08" height="69.99" as="geometry" />
+          <mxGeometry x="0.94" y="0.010714285714285716" width="163.08" height="74.9892857142857" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-58" value="Enumeration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;dashed=1;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="uX-lzGmGO70ofNnJfn6G-56">
-          <mxGeometry x="60.499999999999886" width="40" height="17.49929685302667" as="geometry" />
+          <mxGeometry x="60.499999999999886" width="40" height="18.74924662824286" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-59" value="" style="endArrow=none;dashed=1;html=1;fontSize=11;fontColor=#949494;entryX=0.98;entryY=0.255;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.016;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uX-lzGmGO70ofNnJfn6G-56" target="uX-lzGmGO70ofNnJfn6G-57">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="0.9400000000002819" y="20.083453017907026" as="sourcePoint" />
-            <mxPoint x="139.68000000000006" y="19.471038875589485" as="targetPoint" />
+            <mxPoint x="0.9400000000002819" y="21.517985376328955" as="sourcePoint" />
+            <mxPoint x="139.68000000000006" y="20.86182736670302" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-61" value="Sharepoint Intranet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" vertex="1" parent="uX-lzGmGO70ofNnJfn6G-56">
-          <mxGeometry x="52.48000000000002" y="29.99904309509666" width="60" height="26.248945279540006" as="geometry" />
-        </mxCell>
-        <mxCell id="uX-lzGmGO70ofNnJfn6G-202" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;nfx52801&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;strokeWidth=3;perimeterSpacing=0;fontFamily=Courier New;fontSize=10;fontStyle=1;fillColor=#B50000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=center;" vertex="1" parent="uX-lzGmGO70ofNnJfn6G-56">
-          <mxGeometry x="36.430000000000064" y="100" width="92.11" height="32.3" as="geometry" />
+          <mxGeometry x="52.48000000000002" y="32.141831887603566" width="60" height="28.12386994236429" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-68" target="uX-lzGmGO70ofNnJfn6G-75">
           <mxGeometry relative="1" as="geometry" />
@@ -505,6 +502,15 @@
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-201" value="&lt;b&gt;ADFS Authentication with Service Account No MFA&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontFamily=Courier New;fontSize=10;rotation=0;fontStyle=2;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-1278.77" y="8750" width="101.57" height="36.37" as="geometry" />
+        </mxCell>
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-207" value="&lt;b&gt;Cleartext Credentials from Sharepoint / One Note&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontFamily=Courier New;fontSize=10;rotation=0;fontStyle=2;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1214.72" y="8911.41" width="101.57" height="36.37" as="geometry" />
+        </mxCell>
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-202" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;root@&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;idc-docker-lava3&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;strokeWidth=3;perimeterSpacing=0;fontFamily=Courier New;fontSize=10;fontStyle=1;fillColor=#B50000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1324.3" y="8970" width="193.57" height="52.86" as="geometry" />
+        </mxCell>
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-61" target="uX-lzGmGO70ofNnJfn6G-202">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
