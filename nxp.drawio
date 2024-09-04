@@ -323,7 +323,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-210" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Persistence Through Cronjobs&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=1;strokeWidth=3;perimeterSpacing=0;fontFamily=Courier New;fontSize=10;fontStyle=1;fillColor=#B50000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="8631.23" width="128.57" height="52.86" as="geometry" />
+          <mxGeometry x="-782.51" y="8686.039999999999" width="128.57" height="52.86" as="geometry" />
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-211" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CC0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-202" target="uX-lzGmGO70ofNnJfn6G-210">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -402,6 +402,19 @@
         </mxCell>
         <mxCell id="uX-lzGmGO70ofNnJfn6G-250" value="&lt;b&gt;The user has Delegated Object Controls&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontFamily=Courier New;fontSize=10;rotation=0;fontStyle=2;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-350" y="8933.63" width="101.57" height="36.37" as="geometry" />
+        </mxCell>
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-252" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#CC0000;exitX=1;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uX-lzGmGO70ofNnJfn6G-57" target="uX-lzGmGO70ofNnJfn6G-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1121" y="9006" as="sourcePoint" />
+            <mxPoint x="-770" y="8668" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-860" y="8690" />
+              <mxPoint x="-670" y="8490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uX-lzGmGO70ofNnJfn6G-253" value="&lt;b&gt;NXF52801 Has access to Secure Files in the Portal&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontFamily=Courier New;fontSize=10;rotation=0;fontStyle=2;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-314.04999999999995" y="8506.82" width="101.57" height="36.37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
